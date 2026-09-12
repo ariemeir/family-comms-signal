@@ -5,7 +5,7 @@ script that builds the entire two-part enclosure inside Autodesk Fusion 360**, a
 it is the declared source of truth. The design is rebuilt from code, not edited by
 hand.
 
-**→ [Browse this directory on GitHub](https://github.com/ariemeir/wifesignal/tree/main/device/enclosure)**
+**→ [Browse this directory on GitHub](https://github.com/ariemeir/family-comms-signal/tree/main/device/enclosure)**
 
 | | |
 |---|---|

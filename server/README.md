@@ -5,7 +5,7 @@ bleak BLE central sharing a single asyncio event loop. It exists because an iPho
 cannot reliably be a BLE central for a device in another building — so a Mac that
 is already three metres from the lamp takes that role permanently.
 
-**→ [Browse this directory on GitHub](https://github.com/ariemeir/wifesignal/tree/main/server)**
+**→ [Browse this directory on GitHub](https://github.com/ariemeir/family-comms-signal/tree/main/server)**
 
 ## Why one file, one loop
 

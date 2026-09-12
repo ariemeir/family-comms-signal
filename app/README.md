@@ -4,7 +4,7 @@ A SwiftUI iPhone app: three buttons, a status line, and a settings sheet. 333 li
 across 7 files, no third-party packages, no BLE. The phone's entire job is an
 authenticated HTTP POST.
 
-**→ [Browse this directory on GitHub](https://github.com/ariemeir/wifesignal/tree/main/app)**
+**→ [Browse this directory on GitHub](https://github.com/ariemeir/family-comms-signal/tree/main/app)**
 
 <p align="center">
   <img src="../docs/images/app-signal-screen.png" width="300"
