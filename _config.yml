@@ -1,0 +1,8 @@
+title: WifeSignal
+description: A traffic light for the office door. SwiftUI app, BLE bridge, ESP32-C3 firmware, custom PCB, scripted enclosure.
+theme: jekyll-theme-primer
+
+# Keep build output lean; source stays browsable on GitHub itself.
+exclude:
+  - .gitignore
+  - build.sh

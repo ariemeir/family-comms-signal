@@ -4,7 +4,7 @@ A BLE peripheral exposing one service with one characteristic carrying one byte.
 134 lines. It drives three illuminated arcade buttons and reports physical presses
 back to the server.
 
-**→ [Browse this directory on GitHub](https://github.com/ariemeir/technical-portfolio/tree/main/wifesignal/firmware)**
+**→ [Browse this directory on GitHub](https://github.com/ariemeir/wifesignal/tree/main/firmware)**
 
 | | |
 |---|---|

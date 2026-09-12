@@ -21,7 +21,6 @@ Built 2026. Author: Arie Meir. Personal project — see [NOTICE.md](NOTICE.md).
 
 **→ [Read the one-page case study (PDF)](docs/wifesignal-case-study-arie-meir.pdf)**
 · [Server](server/) · [iOS app](app/) · [Firmware](firmware/) · [Hardware](device/)
-· [Browse the source on GitHub](https://github.com/ariemeir/technical-portfolio/tree/main/wifesignal)
 
 > **Reference only.** A working system in daily use, published so the engineering
 > can be read. Deployment specifics (signing team, App Store Connect key IDs,
@@ -368,11 +367,20 @@ A working system in daily use, honestly described. What that means:
 
 | File | Why it's worth reading |
 |---|---|
-| [`server/server.py`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/server/server.py) | The whole bridge in 290 lines. The `on_notify` classifier and the `ble_loop` supervisor are the heart of the system. |
-| [`firmware/wifesignal_3ch/wifesignal_3ch.ino`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/firmware/wifesignal_3ch/wifesignal_3ch.ino) | The PNP polarity note and the latch-before-`pinMode` boot-flash fix, with the button semantics documented as a contract with the server. |
-| [`app/WifeSignal/SignalViewModel.swift`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/app/WifeSignal/SignalViewModel.swift) | 38 lines: the poll loop and its deliberately forgiving — and knowingly flawed — error policy. |
-| [`app/WifeSignal/ContentView.swift`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/app/WifeSignal/ContentView.swift) | The entire UI, including the *Waiting… → Seen ♥* status card. |
-| [`device/enclosure/AWifeSignalEnclosure.py`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/device/enclosure/AWifeSignalEnclosure.py) | Parametric CAD as a program: derived dimensions, measured constants, guarded feature steps. |
-| [`device/WifeSignalPCB/WifeSignal3ch.kicad_sch`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/device/WifeSignalPCB/WifeSignal3ch.kicad_sch) | The schematic, including the in-drawing notes mapping refs to channels — and the wrong transistor. |
-| [`ops/wife-signal`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/ops/wife-signal) | launchd bootstrap, health polling, and Tailscale serve configuration in one operator script. |
-| [`server/wifesignal_cli.py`](https://github.com/ariemeir/technical-portfolio/blob/main/wifesignal/server/wifesignal_cli.py) | 69-line BLE REPL for talking to the board directly when the server is stopped. |
+| [`server/server.py`](https://github.com/ariemeir/wifesignal/blob/main/server/server.py) | The whole bridge in 290 lines. The `on_notify` classifier and the `ble_loop` supervisor are the heart of the system. |
+| [`firmware/wifesignal_3ch/wifesignal_3ch.ino`](https://github.com/ariemeir/wifesignal/blob/main/firmware/wifesignal_3ch/wifesignal_3ch.ino) | The PNP polarity note and the latch-before-`pinMode` boot-flash fix, with the button semantics documented as a contract with the server. |
+| [`app/WifeSignal/SignalViewModel.swift`](https://github.com/ariemeir/wifesignal/blob/main/app/WifeSignal/SignalViewModel.swift) | 38 lines: the poll loop and its deliberately forgiving — and knowingly flawed — error policy. |
+| [`app/WifeSignal/ContentView.swift`](https://github.com/ariemeir/wifesignal/blob/main/app/WifeSignal/ContentView.swift) | The entire UI, including the *Waiting… → Seen ♥* status card. |
+| [`device/enclosure/AWifeSignalEnclosure.py`](https://github.com/ariemeir/wifesignal/blob/main/device/enclosure/AWifeSignalEnclosure.py) | Parametric CAD as a program: derived dimensions, measured constants, guarded feature steps. |
+| [`device/WifeSignalPCB/WifeSignal3ch.kicad_sch`](https://github.com/ariemeir/wifesignal/blob/main/device/WifeSignalPCB/WifeSignal3ch.kicad_sch) | The schematic, including the in-drawing notes mapping refs to channels — and the wrong transistor. |
+| [`ops/wife-signal`](https://github.com/ariemeir/wifesignal/blob/main/ops/wife-signal) | launchd bootstrap, health polling, and Tailscale serve configuration in one operator script. |
+| [`server/wifesignal_cli.py`](https://github.com/ariemeir/wifesignal/blob/main/server/wifesignal_cli.py) | 69-line BLE REPL for talking to the board directly when the server is stopped. |
+
+---
+
+## Other projects
+
+- **[RoboImplant](https://github.com/ariemeir/roboimplant)** · non-invasive spinal implant adjustment system: AVR firmware, Android clinician console, custom PCB, SolidWorks enclosure.
+- **[3D Scanner](https://github.com/ariemeir/3dscanner)** · turntable photogrammetry rig: iPhone camera server, Python orchestration, IR-driven turntable, Object Capture reconstruction.
+
+All published engineering projects are listed at [github.com/ariemeir](https://github.com/ariemeir).

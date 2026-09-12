@@ -4,7 +4,7 @@ The physical object: a custom two-layer PCB carrying three lamp-driver channels,
 ESP32-C3 on removable headers, and three 30 mm illuminated arcade buttons in a
 3D-printed two-part enclosure.
 
-**→ [Browse this directory on GitHub](https://github.com/ariemeir/technical-portfolio/tree/main/wifesignal/device)**
+**→ [Browse this directory on GitHub](https://github.com/ariemeir/wifesignal/tree/main/device)**
 
 | | |
 |:--:|:--:|

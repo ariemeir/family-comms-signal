@@ -7,7 +7,7 @@ published **for reference purposes only**, as an engineering portfolio artifact.
 **All rights reserved to Arie Meir.**
 
 No license — open source or otherwise — is granted to use, copy, modify, or
-distribute the original work in this directory. It is made visible so that the
+distribute the original work in this repository. It is made visible so that the
 engineering can be read and evaluated, nothing more.
 
 This reservation applies to the **original work only**. It does not and cannot
@@ -59,7 +59,7 @@ The LaunchAgent is published as `ops/com.ariemeir.wife-signal.plist.example` rat
 than as a directly installable file, because installing it requires substituting
 those paths first.
 
-**No credential, key, or token appears in this directory at any point in its
+**No credential, key, or token appears in this repository at any point in its
 history.** The API token and the App Store Connect private keys (`.p8`) were
 excluded from version control by `.gitignore` from the first commit of the original
 project and were never committed. The published copy is a fresh snapshot with no

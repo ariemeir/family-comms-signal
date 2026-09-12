@@ -3,7 +3,7 @@
 The server runs as a macOS LaunchAgent and is reachable only from the tailnet. This
 directory holds the LaunchAgent template and a single operator script.
 
-**→ [Browse this directory on GitHub](https://github.com/ariemeir/technical-portfolio/tree/main/wifesignal/ops)**
+**→ [Browse this directory on GitHub](https://github.com/ariemeir/wifesignal/tree/main/ops)**
 
 ## The operator script
 

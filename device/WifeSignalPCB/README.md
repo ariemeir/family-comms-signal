@@ -2,7 +2,7 @@
 
 Schematic, layout and fabrication output for the lamp-driver board.
 
-**→ [Browse this directory on GitHub](https://github.com/ariemeir/technical-portfolio/tree/main/wifesignal/device/WifeSignalPCB)**
+**→ [Browse this directory on GitHub](https://github.com/ariemeir/wifesignal/tree/main/device/WifeSignalPCB)**
 
 ## Which files matter
 

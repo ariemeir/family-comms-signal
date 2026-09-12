@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+._*
+
+# Secrets — the server reads its token from here
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Swift / Xcode
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Arduino build output
+*.hex
+*.elf
+
+# Editor cruft
+*~
+*.swp
+
+# NOTE: no `output/` rule here. device/WifeSignalPCB/output/ holds the gerbers
+# the board was actually ordered from — design data, not build output.
